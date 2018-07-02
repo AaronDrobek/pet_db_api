@@ -1,9 +1,9 @@
-package com.drobek.practice.model;
+package com.drobek.practice.dao.model;
 
 import javax.persistence.*;
 
 @Entity
-public class Pets {
+public class Toys {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -12,12 +12,11 @@ public class Pets {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "breed")
-    private String  breed;
-
     @Column(name = "color")
     private String color;
 
+    @Column(name = "discription")
+    private String discription;
 
     public int getId() {
         return id;
@@ -35,19 +34,19 @@ public class Pets {
         this.name = name;
     }
 
-    public String getBreed() {
-        return breed;
-    }
-
-    public void setBreed(String breed) {
-        this.breed = breed;
-    }
-
     public String getColor() {
         return color;
     }
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public String getDiscription() {
+        return discription;
+    }
+
+    public void setDiscription(String discription) {
+        this.discription = discription;
     }
 }

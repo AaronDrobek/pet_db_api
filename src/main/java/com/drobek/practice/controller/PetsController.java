@@ -1,8 +1,11 @@
 package com.drobek.practice.controller;
 
 
-import com.drobek.practice.model.Pets;
-import com.drobek.practice.repository.PetsRepository;
+
+import com.drobek.practice.dao.model.Human;
+import com.drobek.practice.dao.model.Pets;
+import com.drobek.practice.service.HumanService;
+import com.drobek.practice.service.PetsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,32 +18,34 @@ public class PetsController {
     private Logger LOG = LoggerFactory.getLogger(PetsController.class);
 
     @Autowired
-    private PetsRepository petsRepository;
+    private PetsService petsService;
+
+    @Autowired
+    private HumanService humanService;
 
     @GetMapping("/pets")
-    public List<Pets> getAllPets() {
-
-        return petsRepository.findAll();
+    private List<Pets> getAllPets() {
+        return petsService.getAllPets();
     }
 
     @PutMapping("/pets")
     private void updateAPet(@RequestBody Pets pet,
                             @RequestParam(name = "name", required = false) String name) {
-        Pets pets = petsRepository.findByName(name);
-        pets.setName(pet.getName());
-        pets.setBreed(pet.getBreed());
-        pets.setColor(pet.getColor());
-        petsRepository.save(pets);
+     petsService.updateAPet(pet,name);
     }
 
     @PostMapping("/pets")
     private void createAPet(@RequestBody Pets pet) {
-        Pets pets = new Pets();
-        pets.setBreed(pet.getBreed());
-        pets.setColor(pet.getColor());
-        pets.setName(pet.getName());
-        petsRepository.save(pets);
+      petsService.createAPet(pet);
     }
 
 
+    @PutMapping("/pets/{petId}/owner")
+    private void assignPetToOwner(@PathVariable ("petId")int petId,
+                                  @RequestParam(name = "ownerName", required = false)String ownerName){
+
+        Human human= humanService.findHumanByName(ownerName);
+        petsService.updatePetWithHuman(petId,human);
+
+    }
 }

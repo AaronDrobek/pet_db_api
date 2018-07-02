@@ -1,4 +1,4 @@
-package com.drobek.practice.repository;
+package com.drobek.practice.dao.repository;
 
 
 
@@ -8,7 +8,7 @@ package com.drobek.practice.repository;
 //   https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
 
 
-import com.drobek.practice.model.Pets;
+import com.drobek.practice.dao.model.Pets;
 import org.springframework.data.repository.RepositoryDefinition;
 
 import java.util.List;
@@ -17,6 +17,8 @@ import java.util.List;
 public interface PetsRepository {
     //select * from pets
     List<Pets> findAll();
+
+    Pets findById(int id);
 
     Pets findByName(String name);
 
