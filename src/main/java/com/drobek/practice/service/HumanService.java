@@ -1,6 +1,7 @@
 package com.drobek.practice.service;
 
 import com.drobek.practice.dao.model.Human;
+import com.drobek.practice.dao.model.HumanPet;
 import com.drobek.practice.dao.model.Toys;
 import com.drobek.practice.dao.repository.HumanRepository;
 import com.drobek.practice.dao.repository.ToysRepository;
@@ -42,12 +43,12 @@ public class HumanService {
       return  humanRepository.findByName(ownerName);
       }
 
-    public void updateHumanWithToy(int humanId, Toys toy) {
-        Human human = humanRepository.findById(humanId);
-        
-        human.setToys(Arrays.asList(toy));
+    public void addHumanAndToy(Human human, Toys toy) {
         humanRepository.save(human);
+        toysRepository.save(toy);
 
+    }
 
+    public void createAHumanFromTwoObjects(HumanPet humanPet) {
     }
 }

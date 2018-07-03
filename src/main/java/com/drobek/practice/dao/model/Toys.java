@@ -1,6 +1,12 @@
 package com.drobek.practice.dao.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
+
+//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+
 
 @Entity
 public class Toys {
@@ -17,6 +23,20 @@ public class Toys {
 
     @Column(name = "discription")
     private String discription;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "human_id")
+    @JsonIgnore
+    private Human human;
+
+
+    public Human getHuman() {
+        return human;
+    }
+
+    public void setHuman(Human human) {
+        this.human = human;
+    }
 
     public int getId() {
         return id;

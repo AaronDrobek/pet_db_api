@@ -1,0 +1,13 @@
+com/drobek/practice/dao/model/Human.class
+com/drobek/practice/service/ToysService.class
+com/drobek/practice/service/HumanService.class
+com/drobek/practice/controller/ToysController.class
+com/drobek/practice/dao/model/Pets.class
+com/drobek/practice/Application.class
+com/drobek/practice/dao/repository/PetsRepository.class
+com/drobek/practice/dao/model/Toys.class
+com/drobek/practice/controller/HumanController.class
+com/drobek/practice/dao/repository/ToysRepository.class
+com/drobek/practice/dao/repository/HumanRepository.class
+com/drobek/practice/service/PetsService.class
+com/drobek/practice/controller/PetsController.class

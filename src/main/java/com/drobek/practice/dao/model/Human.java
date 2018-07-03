@@ -1,11 +1,23 @@
 package com.drobek.practice.dao.model;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import java.util.List;
 
+//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+
 @Entity
 public class Human {
+//    @Override
+//    public String toString() {
+//        return "Human{" +
+//                "id=" + id +
+//                ", name='" + name + '\'' +
+//                ", age=" + age +
+//                '}';
+//    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,9 +29,6 @@ public class Human {
     @Column(name = "age")
     private int age;
 
-    @OneToMany
-    private List<Toys> toys;
-
 
     public List<Toys> getToys() {
         return toys;
@@ -28,6 +37,24 @@ public class Human {
     public void setToys(List<Toys> toys) {
         this.toys = toys;
     }
+
+    @OneToMany(fetch = FetchType.EAGER , mappedBy = "human", targetEntity=Toys.class)
+    private List <Toys> toys;
+
+
+
+//
+//    @OneToMany(mappedBy = "human", cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+//    private List<Toys> toys;
+
+
+//    public List<Toys> getToys() {
+//        return toys;
+//    }
+//
+//    public void setToys(List<Toys> toys) {
+//        this.toys = toys;
+//    }
 
     public int getId() {
         return id;
