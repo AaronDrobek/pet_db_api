@@ -77,7 +77,7 @@ public class ToysController {
 
     @PostMapping("addcustomer")
     public void takeTwoObjectsCreateNewHumanAndToy(@RequestBody HumanPet humanPet){
-        LOG.info(humanPet.getHuman().getName());
+//        LOG.info(humanPet.getHuman().getName());
         humanService.createAHumanFromTwoObjects(humanPet);
         toysService.createAToyFromTwoObjects(humanPet);
 

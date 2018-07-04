@@ -67,9 +67,9 @@ public class HumanController {
 //
 //    }
     @GetMapping("/toysforhuman")
-    private List<String> getToysRelatedToHuman() {
+    private List<String> getToysRelatedToHuman(@RequestParam(name = "name", required = false) String name) {
         toysService.getAllToys();
-        Human newHuman = humanService.findHumanByName("greg");
+        Human newHuman = humanService.findHumanByName(name);
         List<Toys> theToys = newHuman.getToys();
         List<String> onlyName = new ArrayList<>();
 
