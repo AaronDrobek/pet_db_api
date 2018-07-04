@@ -19,6 +19,7 @@ public class Pets {
     private String color;
 
     @OneToOne
+    @JoinColumn(name = "human_id")
     private Human human;
 
     public Human getHuman() {

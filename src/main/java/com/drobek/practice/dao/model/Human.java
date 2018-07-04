@@ -1,6 +1,7 @@
 package com.drobek.practice.dao.model;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
@@ -29,6 +30,21 @@ public class Human {
     @Column(name = "age")
     private int age;
 
+    @OneToMany(fetch = FetchType.EAGER , mappedBy = "human", targetEntity=Toys.class)
+//    @JsonIgnore
+    private List <Toys> toys;
+
+    @OneToOne(mappedBy = "human",targetEntity=Pets.class)
+    @JsonIgnore
+    private Pets pets;
+
+    public Pets getPets() {
+        return pets;
+    }
+
+    public void setPets(Pets pets) {
+        this.pets = pets;
+    }
 
     public List<Toys> getToys() {
         return toys;
@@ -37,11 +53,6 @@ public class Human {
     public void setToys(List<Toys> toys) {
         this.toys = toys;
     }
-
-    @OneToMany(fetch = FetchType.EAGER , mappedBy = "human", targetEntity=Toys.class)
-    private List <Toys> toys;
-
-
 
 //
 //    @OneToMany(mappedBy = "human", cascade = CascadeType.ALL,fetch = FetchType.EAGER)
