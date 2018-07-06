@@ -23,7 +23,6 @@ public class HumanController {
     @Autowired
     private ToysService toysService;
 
-
     @GetMapping("/human")
     protected List<Human> getAllHumans() {
 

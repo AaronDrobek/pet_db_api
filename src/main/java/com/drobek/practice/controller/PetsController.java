@@ -51,7 +51,7 @@ public class PetsController {
     }
 
 
-//    @GetMapping("petstohuman")
+    //    @GetMapping("petstohuman")
 //    private Pets getTheDogThatBelongsToHuman(@RequestParam(name = "name", required = false) String name) {
 //        petsService.getAllPets();
 //        Human newHuman = humanService.findHumanByName(name);
@@ -59,13 +59,12 @@ public class PetsController {
 //        return pet;
 //    }
     @GetMapping("petstohuman")
-    private List <String> getTheDogThatBelongsToHuman(@RequestParam(name = "name", required = false) String name) {
-        List <String> petsName = new ArrayList<>();
+    private List<String> getTheDogThatBelongsToHuman(@RequestParam(name = "name", required = false) String name) {
+        List<String> petsName = new ArrayList<>();
         petsService.getAllPets();
         Human newHuman = humanService.findHumanByName(name);
         Pets pet = newHuman.getPets();
         petsName.add(pet.getName());
-
 
         return petsName;
     }

@@ -9,12 +9,15 @@ import com.drobek.practice.service.ToysService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+//@Controller
 public class ToysController {
     private Logger LOG = LoggerFactory.getLogger(HumanController.class);
 
@@ -75,13 +78,41 @@ public class ToysController {
         return ownerToyName;
     }
 
-    @PostMapping("addcustomer")
-    public void takeTwoObjectsCreateNewHumanAndToy(@RequestBody HumanPet humanPet){
-//        LOG.info(humanPet.getHuman().getName());
-        humanService.createAHumanFromTwoObjects(humanPet);
-        toysService.createAToyFromTwoObjects(humanPet);
+//    @PostMapping("addcustomer")
+//    public String takeTwoObjectsCreateNewHumanAndToy(@ModelAttribute @RequestBody HumanPet humanPet, Model model){
+////        LOG.info(humanPet.getHuman().getName());
+//        model.addAttribute(null, humanPet);
+//        humanService.createAHumanFromTwoObjects(humanPet);
+//        toysService.createAToyFromTwoObjects(humanPet);
+//
+//        String response= humanPet.getHuman().getName() + " has been added successfully ";
+//        return response;
+//
+//    }
+//
+//    @RequestMapping(value = "addcustomer", method = RequestMethod.POST)
+//    public String takeTwoObjectsCreateNewHumanAndToy(@ModelAttribute @RequestBody HumanPet humanPet, Model model){
+////        LOG.info(humanPet.getHuman().getName());
+//        model.addAttribute(null, humanPet);
+//        humanService.createAHumanFromTwoObjects(humanPet);
+//        toysService.createAToyFromTwoObjects(humanPet);
+//
+//        String response= humanPet.getHuman().getName() + " has been added successfully ";
+//        return response;
+//
+//    }
 
-    }
+//    @GetMapping("/addcustomer")
+//    public String greetingForm(Model model) {
+////        model.addAttribute("greeting", new Greeting());
+//        return "greeting";
+//    }
+////
+//    @GetMapping("/addcustomer")
+//    public String greetingForm() {
+////        model.addAttribute("greeting", new Greeting());
+//        return "greeting";
+//    }
 
 
 }

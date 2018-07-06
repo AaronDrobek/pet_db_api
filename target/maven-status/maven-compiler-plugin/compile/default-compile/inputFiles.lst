@@ -8,6 +8,7 @@
 /Users/Drobek/IdeaProjects/pet_db_api/src/main/java/com/drobek/practice/dao/model/Human.java
 /Users/Drobek/IdeaProjects/pet_db_api/src/main/java/com/drobek/practice/controller/ToysController.java
 /Users/Drobek/IdeaProjects/pet_db_api/src/main/java/com/drobek/practice/dao/repository/PetsRepository.java
+/Users/Drobek/IdeaProjects/pet_db_api/src/main/java/com/drobek/practice/dao/model/HumanPet.java
 /Users/Drobek/IdeaProjects/pet_db_api/src/main/java/com/drobek/practice/Application.java
 /Users/Drobek/IdeaProjects/pet_db_api/src/main/java/com/drobek/practice/dao/repository/ToysRepository.java
 /Users/Drobek/IdeaProjects/pet_db_api/src/main/java/com/drobek/practice/dao/model/Toys.java
