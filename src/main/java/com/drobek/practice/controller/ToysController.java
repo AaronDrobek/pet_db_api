@@ -89,18 +89,7 @@ public class ToysController {
 //        return response;
 //
 //    }
-//
-//    @RequestMapping(value = "addcustomer", method = RequestMethod.POST)
-//    public String takeTwoObjectsCreateNewHumanAndToy(@ModelAttribute @RequestBody HumanPet humanPet, Model model){
-////        LOG.info(humanPet.getHuman().getName());
-//        model.addAttribute(null, humanPet);
-//        humanService.createAHumanFromTwoObjects(humanPet);
-//        toysService.createAToyFromTwoObjects(humanPet);
-//
-//        String response= humanPet.getHuman().getName() + " has been added successfully ";
-//        return response;
-//
-//    }
+
 
 //    @GetMapping("/addcustomer")
 //    public String greetingForm(Model model) {

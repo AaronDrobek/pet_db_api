@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thymeleaf.org ">
+<head>
+    <title>Customer Toy Tracker</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>Customer Sign in </h1>
+<form
+    action="#" th:action="@{/addcustomer}" th:object="${humanPet}" method="post">
+    <p>Customer Name:<input type="text" th:field="*{human.name}"/></p>
+    <!--<p>Customer Name:<input type="text" /></p>-->
+
+    <p>Toy Description :<input type="text" th:field="*{name}"/></p>
+    <p><input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

@@ -21,7 +21,9 @@ public class Human {
 //    }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private int id;
 
     @Column(name = "name")

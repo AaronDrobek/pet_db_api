@@ -49,6 +49,4 @@ public class HumanService {
 
     }
 
-    public void createAHumanFromTwoObjects(HumanPet humanPet) {
-    }
 }

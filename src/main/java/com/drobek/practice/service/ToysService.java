@@ -64,14 +64,14 @@ public class ToysService {
 
     public void createAToyFromTwoObjects(HumanPet humanPet) {
         Toys toy = new Toys();
+        Human human = new Human();
         toy.setName(humanPet.getName());
         toy.setColor(humanPet.getColor());
         toy.setDiscription(humanPet.getDiscription());
-        toysRepository.save(toy);
-        Human human = new Human();
         human.setName(humanPet.getHuman().getName());
         human.setAge(humanPet.getHuman().getAge());
         humanRepository.save(human);
+        toysRepository.save(toy);
         updatetoyWithHuman(toy.getId(),human);
 
     }
