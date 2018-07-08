@@ -26,71 +26,48 @@ public class FormController {
     HumanService humanService;
     @Autowired
     ToysService toysService;
-//    @Autowired
-//    HumanRepository humanRepository;
+    @Autowired
+    HumanRepository humanRepository;
+
 //    @Autowired
 //    ToysRepository toysRepository;
-
-
-
-
 
 
     @GetMapping("/addcustomer")
     public String greetingForm(Model model) {
         HumanPet humanPet = new HumanPet();
-model.addAttribute("humanPet", humanPet);
-//        model.addAttribute("greeting", new Greeting());
-//        humanPet.setName("name");
-//        humanPet.getHuman().setName("humanPet.name");
+        model.addAttribute("humanPet", humanPet);
         return "newcustomer";
     }
 
     @RequestMapping(value = "addcustomer", method = RequestMethod.POST)
-    public String takeTwoObjectsCreateNewHumanAndToy(@ModelAttribute(value = "humanPet") HumanPet humanPet){
+    public String takeTwoObjectsCreateNewHumanAndToy(@ModelAttribute(value = "humanPet") HumanPet humanPet) {
         LOG.info(humanPet.getHuman().getName() + " ------------------------------------");
-        LOG.info(humanPet.getName()+" ======================");
-
+        LOG.info(humanPet.getName() + " ======================");
         toysService.createAToyFromTwoObjects(humanPet);
-
-        LOG.info(humanPet.getHuman().getName() + " ------------------------------------");
-        LOG.info(humanPet.getName()+" ======================");
-
-
-//        String response= humanPet.getHuman().getName() + " has been added successfully ";
         return "customerlist";
-
     }
 
-//    @RequestMapping(value = "customerlist", method = RequestMethod.GET)
-//    public List <String> customerList(@ModelAttribute(value ="human")Human human) {
-//        List<String> onlyName = new ArrayList<>();
-//        List<Human> allHuman = humanService.getAllHumans();
-//        for (final Human eachHuman : allHuman) {
-//            LOG.info(eachHuman.getName());
-//            onlyName.add(eachHuman.getName());
-//        }
-//        return onlyName;
-//
-//    }
 
     @RequestMapping("/customerlist")
-public String listOfAllCustomers(Model model){
-        model.addAttribute("human",humanService.getAllHumans());
-        LOG.info("human" + "this is list of humans???");
+    public String listOfAllCustomers(Model model) {
+        Human human = new Human();
+        model.addAttribute("human", humanService.getAllHumans());
+        LOG.info(human.getToys() + " this is human toys");
+
         return "/customerlist";
     }
 
+    @RequestMapping("/toyslist")
+    public String listOfAllToys(Model model) {
+        Toys toys = new Toys();
+        model.addAttribute("toys", toysService.getAllToys());
+        return "/toyslist";
+    }
+
+    @RequestMapping("/addtoy")
+    public String showFormToAddNewToy(Model model){
+
+    }
 }
 
-//@ModelAttribute
-//Toys toy = new Toys();
-//    Human human = new Human();
-//        toy.setName(humanPet.getName());
-//                toy.setColor(humanPet.getColor());
-//                toy.setDiscription(humanPet.getDiscription());
-//                human.setName(humanPet.getHuman().getName());
-//                human.setAge(humanPet.getHuman().getAge());
-//                humanRepository.save(human);
-//                toysRepository.save(toy);
-//                toysService.updatetoyWithHuman(toy.getId(),human);

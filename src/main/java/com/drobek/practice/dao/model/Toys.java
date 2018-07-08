@@ -28,7 +28,7 @@ public class Toys {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "human_id")
-    @JsonIgnore
+//    @JsonIgnore
     private Human human;
 
 

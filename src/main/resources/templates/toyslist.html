@@ -7,23 +7,20 @@
 </head>
 <body>
 <a href ="/addcustomer" >Sign in new customer</a>
-<a href ="/toyslist" >View toys by customer list</a>
-<h1>Customer List </h1>
+<a href ="/customerlist" >Back to customer list</a>
+<h1>Toys List </h1>
 
+<tr th:each="toys: ${toys}">
+    <!--<td th:attr="data-human=${toys.human.name !=null}?${toys.human.name}:'not specified'"></td>-->
+    <h2>
+        <td th:text="${toys.human?.name}"></td>
+    </h2>
+    <td th:each="toys: ${toys}">
 
-<!--<a href="/newcustomer">add another customer:</a>-->
-<!--<p></p>-->
-<!--<a href="/newcustomer">view customer list:</a>-->
-
-
-<tr th:each="human: ${human}">
-<h2> <td th:text="${human.name}"></td></h2>
-
-
+        <li th:text="${toys.name}">Text ...</li>
+</tr>
 </td>
 </tr>
-
-
 
 </body>
 </html>
