@@ -65,9 +65,14 @@ public class FormController {
         return "/toyslist";
     }
 
+    @RequestMapping("/home")
+    public String showHomeView(){
+        return "homeview";
+    }
+
     @RequestMapping("/addtoy")
     public String showFormToAddNewToy(Model model){
-
+return null;
     }
 }
 

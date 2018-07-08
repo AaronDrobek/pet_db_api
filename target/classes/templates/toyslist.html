@@ -4,6 +4,8 @@
 <head>
     <title>Customer List</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+
 </head>
 <body>
 <a href ="/addcustomer" >Sign in new customer</a>
@@ -12,9 +14,9 @@
 
 <tr th:each="toys: ${toys}">
     <!--<td th:attr="data-human=${toys.human.name !=null}?${toys.human.name}:'not specified'"></td>-->
-    <h2>
+    <h4>
         <td th:text="${toys.human?.name}"></td>
-    </h2>
+    </h4>
     <td th:each="toys: ${toys}">
 
         <li th:text="${toys.name}">Text ...</li>

@@ -4,25 +4,22 @@
 <head>
     <title>Customer List</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+
 </head>
 <body>
-<a href ="/addcustomer" >Sign in new customer</a>
-<a href ="/toyslist" >View toys by customer list</a>
+<a href="/addcustomer">Sign in new customer</a>
+<a href="/toyslist">View toys by customer list</a>
 <h1>Customer List </h1>
 
-
-<!--<a href="/newcustomer">add another customer:</a>-->
-<!--<p></p>-->
-<!--<a href="/newcustomer">view customer list:</a>-->
-
-
 <tr th:each="human: ${human}">
-<h2> <td th:text="${human.name}"></td></h2>
+    <h4>
+        <td th:text="${human.name}"></td>
+    </h4>
 
 
-</td>
+    </td>
 </tr>
-
 
 
 </body>
