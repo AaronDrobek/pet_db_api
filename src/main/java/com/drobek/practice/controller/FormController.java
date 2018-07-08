@@ -15,12 +15,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Controller
 public class FormController {
     private Logger LOG = LoggerFactory.getLogger(HumanController.class);
 
-//    @Autowired
-//    HumanService humanService;
+    @Autowired
+    HumanService humanService;
     @Autowired
     ToysService toysService;
 //    @Autowired
@@ -55,8 +58,27 @@ model.addAttribute("humanPet", humanPet);
 
 
 //        String response= humanPet.getHuman().getName() + " has been added successfully ";
-        return "newcustomer";
+        return "customerlist";
 
+    }
+
+//    @RequestMapping(value = "customerlist", method = RequestMethod.GET)
+//    public List <String> customerList(@ModelAttribute(value ="human")Human human) {
+//        List<String> onlyName = new ArrayList<>();
+//        List<Human> allHuman = humanService.getAllHumans();
+//        for (final Human eachHuman : allHuman) {
+//            LOG.info(eachHuman.getName());
+//            onlyName.add(eachHuman.getName());
+//        }
+//        return onlyName;
+//
+//    }
+
+    @RequestMapping("/customerlist")
+public String listOfAllCustomers(Model model){
+        model.addAttribute("human",humanService.getAllHumans());
+        LOG.info("human" + "this is list of humans???");
+        return "/customerlist";
     }
 
 }
