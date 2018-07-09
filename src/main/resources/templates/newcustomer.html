@@ -14,10 +14,8 @@
 <h1>Customer Sign in</h1>
 <form
     action="#" th:action="@{/addcustomer}" th:object="${humanPet}" method="post">
-    <p>Customer Name:<input class="input"type="text" th:field="*{human.name}"/></p>
-    <!--<p>Customer Name:<input type="text" /></p>-->
-
-    <p>Toy Description :<input class="input" type="text" th:field="*{name}"/></p>
+    <p>Customer Name:</p><input class="input"type="text" th:field="*{human.name}"/>
+    <p>Toy Description :</p><textarea class="area" type="text" th:field="*{name}"/>
     <p><input type="submit" value="Submit"/>
 </form>
 </body>

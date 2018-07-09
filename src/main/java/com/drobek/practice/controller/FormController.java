@@ -29,9 +29,6 @@ public class FormController {
     @Autowired
     HumanRepository humanRepository;
 
-//    @Autowired
-//    ToysRepository toysRepository;
-
 
     @GetMapping("/addcustomer")
     public String greetingForm(Model model) {
@@ -45,7 +42,7 @@ public class FormController {
         LOG.info(humanPet.getHuman().getName() + " ------------------------------------");
         LOG.info(humanPet.getName() + " ======================");
         toysService.createAToyFromTwoObjects(humanPet);
-        return "customerlist";
+        return "redirect:/customerlist";
     }
 
 
@@ -66,13 +63,13 @@ public class FormController {
     }
 
     @RequestMapping("/home")
-    public String showHomeView(){
+    public String showHomeView() {
         return "homeview";
     }
 
     @RequestMapping("/addtoy")
-    public String showFormToAddNewToy(Model model){
-return null;
+    public String showFormToAddNewToy(Model model) {
+        return null;
     }
 }
 

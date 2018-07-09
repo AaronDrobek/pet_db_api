@@ -78,30 +78,16 @@ public class ToysController {
         return ownerToyName;
     }
 
-//    @PostMapping("addcustomer")
-//    public String takeTwoObjectsCreateNewHumanAndToy(@ModelAttribute @RequestBody HumanPet humanPet, Model model){
-////        LOG.info(humanPet.getHuman().getName());
-//        model.addAttribute(null, humanPet);
+    @PostMapping("newcustomer")
+    public String takeTwoObjectsCreateNewHumanAndToy(@RequestBody HumanPet humanPet) {
+//        LOG.info(humanPet.getHuman().getName());
 //        humanService.createAHumanFromTwoObjects(humanPet);
-//        toysService.createAToyFromTwoObjects(humanPet);
-//
-//        String response= humanPet.getHuman().getName() + " has been added successfully ";
-//        return response;
-//
-//    }
+        toysService.createAToyFromTwoObjects(humanPet);
 
+        String response = humanPet.getHuman().getName() + " has been added successfully ";
+        return response;
 
-//    @GetMapping("/addcustomer")
-//    public String greetingForm(Model model) {
-////        model.addAttribute("greeting", new Greeting());
-//        return "greeting";
-//    }
-////
-//    @GetMapping("/addcustomer")
-//    public String greetingForm() {
-////        model.addAttribute("greeting", new Greeting());
-//        return "greeting";
-//    }
+    }
 
 
 }
