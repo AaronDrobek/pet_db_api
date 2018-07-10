@@ -39,11 +39,11 @@ public class ToysService {
         toys.setName(toy.getName());
         toys.setColor(toy.getColor());
         toys.setDiscription(toy.getDiscription());
-
         toysRepository.save(toys);
         }
 
     public Toys findToyByName(String toyname) {
+
         return toysRepository.findByName(toyname);
         }
 

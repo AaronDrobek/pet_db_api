@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12fd2d33-75cf-49e0-a54d-7a06975b7ba5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/PetsServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/FormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/PetsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/PetsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/ToysController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/ToysController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/HumanPet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Pets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Toys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Toys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/HumanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/HumanRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/PetsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/PetsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/ToysRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/ToysRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/HumanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/HumanService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/ToysService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/ToysService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/toyslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/toyslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/controller/FormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/controller/FormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/controller/PetsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/controller/PetsController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/controller/ToysController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/controller/ToysController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/model/HumanPet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/repository/ToysRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/repository/ToysRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/service/HumanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/service/HumanService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/model/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/model/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/model/Pets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/model/Pets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/model/Toys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/dao/model/Toys.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/drobek/practice/service/ToysService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/drobek/practice/service/ToysService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/toyslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/toyslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/drobek/practice/service/ToysServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/drobek/practice/service/ToysServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,11 +36,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PetsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/PetsController.java">
+      <file leaf-file-name="HumanServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/drobek/practice/service/HumanServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+            <state relative-caret-position="232">
+              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="52" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PetsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/PetsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,72 +62,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToysController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/ToysController.java">
+      <file leaf-file-name="PetsServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/drobek/practice/service/PetsServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="419">
+              <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HumanRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/HumanRepository.java">
+      <file leaf-file-name="ToysServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="155">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PetsRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/PetsRepository.java">
+      <file leaf-file-name="ToysService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/ToysService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1744#1745#0" expanded="true" />
-                <element signature="e#1776#1777#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Pets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToysRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/ToysRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="141">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,32 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Toys.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Toys.java">
+      <file leaf-file-name="HumanService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/HumanService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HumanController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/HumanController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/FormController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="276">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,16 +155,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/HumanService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/homeview.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/customerlist.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/newcustomer.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/toyslist.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/ToysService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/dto/HumanPet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/FormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/PetsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/ToysController.java" />
@@ -223,6 +170,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/HumanRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/PetsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/ToysRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/HumanService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/HumanServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drobek/practice/service/ToysService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drobek/practice/service/PetsServiceTest.java" />
       </list>
     </option>
   </component>
@@ -314,27 +267,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet_db_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet_db_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
@@ -349,30 +282,22 @@
               <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="pet_db_api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet_db_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pet_db_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="pet_db_api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pet_db_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet_db_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -419,22 +344,103 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ToysServiceTest.someTest">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.drobek.practice.Application" />
-      <module name="pet_db_api" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.drobek.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PetsServiceTest.givenAPetNameAndPetObjectVarifyPetObjectIsFoundAndNewPetIsSaved">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ToysServiceTest.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HumanServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet_db_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drobek.practice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drobek.practice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drobek.practice.service.HumanServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HumanServiceTest.givenANameAndHumanObjectVarifyObjectArgumentMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet_db_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drobek.practice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drobek.practice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drobek.practice.service.HumanServiceTest" />
+      <option name="METHOD_NAME" value="givenANameAndHumanObjectVarifyObjectArgumentMatches" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HumanServiceTest.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet_db_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drobek.practice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drobek.practice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drobek.practice.service.HumanServiceTest" />
+      <option name="METHOD_NAME" value="someTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PetsServiceTest.givenAPetNameAndPetObjectVarifyPetObjectIsFoundAndNewPetIsSaved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet_db_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drobek.practice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drobek.practice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drobek.practice.service.PetsServiceTest" />
+      <option name="METHOD_NAME" value="givenAPetNameAndPetObjectVarifyPetObjectIsFoundAndNewPetIsSaved" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ToysServiceTest.givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet_db_api" />
       <extension name="coverage">
         <pattern>
@@ -446,7 +452,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.drobek.practice.service" />
       <option name="MAIN_CLASS_NAME" value="com.drobek.practice.service.ToysServiceTest" />
-      <option name="METHOD_NAME" value="someTest" />
+      <option name="METHOD_NAME" value="givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -496,13 +502,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.ToysServiceTest.someTest" />
+      <item itemvalue="JUnit.HumanServiceTest.someTest" />
+      <item itemvalue="JUnit.HumanServiceTest.givenANameAndHumanObjectVarifyObjectArgumentMatches" />
+      <item itemvalue="JUnit.HumanServiceTest" />
+      <item itemvalue="JUnit.ToysServiceTest.givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" />
+      <item itemvalue="JUnit.PetsServiceTest.givenAPetNameAndPetObjectVarifyPetObjectIsFoundAndNewPetIsSaved" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToysServiceTest.someTest" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.PetsServiceTest.givenAPetNameAndPetObjectVarifyPetObjectIsFoundAndNewPetIsSaved" />
+        <item itemvalue="JUnit.ToysServiceTest.givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" />
+        <item itemvalue="JUnit.HumanServiceTest.givenANameAndHumanObjectVarifyObjectArgumentMatches" />
+        <item itemvalue="JUnit.HumanServiceTest" />
+        <item itemvalue="JUnit.HumanServiceTest.someTest" />
       </list>
     </recent_temporary>
   </component>
@@ -523,6 +535,33 @@
     <history-entry file="ToysServiceTest_someTest - 2018.07.10 at 09h 23m 39s.xml">
       <configuration name="ToysServiceTest.someTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ToysServiceTest_givenANameAndHumanObjectVarifyObjectArgumentMatches - 2018.07.10 at 12h 02m 12s.xml">
+      <configuration name="ToysServiceTest.givenANameAndHumanObjectVarifyObjectArgumentMatches" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToysServiceTest_givenANameAndHumanObjectVarifyObjectArgumentMatches - 2018.07.10 at 12h 03m 04s.xml">
+      <configuration name="ToysServiceTest.givenANameAndHumanObjectVarifyObjectArgumentMatches" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToysServiceTest_givenANameAndHumanObjectVarifyObjectArgumentMatches - 2018.07.10 at 12h 09m 08s.xml">
+      <configuration name="ToysServiceTest.givenANameAndHumanObjectVarifyObjectArgumentMatches" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToysServiceTest - 2018.07.10 at 12h 25m 30s.xml">
+      <configuration name="ToysServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToysServiceTest_givenANameAndHumanObjectVarifyObjectArgumentMatches - 2018.07.10 at 12h 26m 27s.xml">
+      <configuration name="ToysServiceTest.givenANameAndHumanObjectVarifyObjectArgumentMatches" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetsServiceTest_givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved - 2018.07.10 at 14h 05m 42s.xml">
+      <configuration name="PetsServiceTest.givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetsServiceTest_givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved - 2018.07.10 at 14h 07m 29s.xml">
+      <configuration name="PetsServiceTest.givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetsServiceTest_givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved - 2018.07.10 at 14h 09m 12s.xml">
+      <configuration name="PetsServiceTest.givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToysServiceTest_givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved - 2018.07.10 at 14h 12m 14s.xml">
+      <configuration name="ToysServiceTest.givenANameAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -530,61 +569,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41029412" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32956383" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32956383" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41029412" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29644588" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4852941" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41029412" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29644588" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4852941" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -671,24 +681,10 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="57" />
+      <option name="time" value="58" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="531" selection-start-line="531" selection-end-line="531" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -916,54 +912,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/PetsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/HumanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/DTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/ToysService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/HumanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/PetsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -1023,25 +965,6 @@
             <element signature="e#1140#1141#0" expanded="true" />
             <element signature="e#1184#1185#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-            <element signature="e#1776#1777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Pets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1075,9 +998,109 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/repository/ToysRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/controller/HumanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/ToysService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/dao/model/Pets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/HumanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drobek/practice/service/ToysServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drobek/practice/service/PetsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drobek/practice/service/HumanServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="52" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drobek/practice/service/PetsServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
           </folding>
         </state>
       </provider>

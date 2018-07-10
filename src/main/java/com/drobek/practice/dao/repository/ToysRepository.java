@@ -20,6 +20,6 @@ public interface ToysRepository
     void save(Toys toys);
 
     void deleteByName(Toys toys);
-    
+
 
 }
