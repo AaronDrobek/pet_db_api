@@ -35,7 +35,7 @@ public class ToysServiceTest {
     private ToysRepository toysRepository;
 
     @Test
-    public void givenAnIdAndToyObjectVarifyToyObjectIsFoundAndNewToyIsSaved() {
+    public void givenAnIdAndToyObjectVerifyToyObjectIsFoundAndNewToyIsSaved() {
         Toys toysFromDb = new Toys();
         toysFromDb.setId(3);
         toysFromDb.setName("yoyo");
@@ -61,6 +61,26 @@ public class ToysServiceTest {
                 hasProperty("name", Is.is("yoyo")),
                 hasProperty("color", Is.is("green")),
                 hasProperty("discription", Is.is("toy on a string"))
+        ));
+    }
+
+    @Test
+    public void givenToyObjectVerifyTheObjectInputMatchesTheObjectSaved(){
+        Toys toyToCreate = new Toys();
+        toyToCreate.setName("plastic bone");
+        toyToCreate.setColor("white");
+        toyToCreate.setDiscription("squeaky toy");
+
+        toysService.createAToy(toyToCreate);
+
+        ArgumentCaptor <Toys> argCaptor = ArgumentCaptor.forClass(Toys.class);
+        verify(toysRepository).save(argCaptor.capture());
+
+        Toys capturedToy = argCaptor.getValue();
+        assertThat(capturedToy, allOf(
+                hasProperty("name",Is.is("plastic bone")),
+                hasProperty("color",Is.is("white")),
+                hasProperty("discription",Is.is("squeaky toy"))
         ));
     }
 

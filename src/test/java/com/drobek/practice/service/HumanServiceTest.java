@@ -7,8 +7,10 @@ import org.hamcrest.core.Is;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.*;
-
+import org.mockito.ArgumentCaptor;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.beans.HasPropertyWithValue.hasProperty;
@@ -36,7 +38,7 @@ public class HumanServiceTest {
 
 
     @Test
-    public void givenANameAndHumanObjectVarifyHumanObjectIsFoundAndNewHumanIsSaved() {
+    public void givenANameAndHumanObjectVerifyHumanObjectIsFoundAndNewHumanIsSaved() {
         Human humanFromDb = new Human();
         humanFromDb.setName("tom");
         humanFromDb.setAge(22);
@@ -56,6 +58,25 @@ public class HumanServiceTest {
         assertThat(captured, allOf(
                 hasProperty("name", Is.is("tommy")),
                 hasProperty("age", Is.is(23))
+        ));
+    }
+
+
+    @Test
+    public void givenHumanObjectVerifyTheObjectInputMatchesTheObjectSaved(){
+        Human humanToCreate = new Human();
+        humanToCreate.setName("paul");
+        humanToCreate.setAge(41);
+
+        humanService.createAHuman(humanToCreate);
+
+        ArgumentCaptor <Human> argCaptor = ArgumentCaptor.forClass(Human.class);
+        verify(humanRepository).save(argCaptor.capture());
+
+        Human captured = argCaptor.getValue();
+        assertThat(captured, allOf(
+                hasProperty("name",Is.is("paul")),
+                hasProperty("age",Is.is(41))
         ));
     }
 
