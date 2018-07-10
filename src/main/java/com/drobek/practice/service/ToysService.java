@@ -2,7 +2,7 @@ package com.drobek.practice.service;
 
 
 import com.drobek.practice.dao.model.Human;
-import com.drobek.practice.dao.model.HumanPet;
+import com.drobek.practice.dao.dto.HumanPet;
 import com.drobek.practice.dao.model.Toys;
 import com.drobek.practice.dao.repository.HumanRepository;
 import com.drobek.practice.dao.repository.ToysRepository;
@@ -13,7 +13,6 @@ import java.util.List;
 
 @Service
 public class ToysService {
-
 
     @Autowired
     private ToysRepository toysRepository;

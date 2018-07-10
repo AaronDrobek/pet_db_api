@@ -1,4 +1,6 @@
-package com.drobek.practice.dao.model;
+package com.drobek.practice.dao.dto;
+
+import com.drobek.practice.dao.model.Human;
 
 public class HumanPet {
 

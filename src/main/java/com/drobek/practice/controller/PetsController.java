@@ -3,7 +3,6 @@ package com.drobek.practice.controller;
 
 import com.drobek.practice.dao.model.Human;
 import com.drobek.practice.dao.model.Pets;
-import com.drobek.practice.dao.model.Toys;
 import com.drobek.practice.service.HumanService;
 import com.drobek.practice.service.PetsService;
 import org.slf4j.Logger;

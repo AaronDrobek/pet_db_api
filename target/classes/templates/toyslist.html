@@ -16,6 +16,8 @@
     <!--<td th:attr="data-human=${toys.human.name !=null}?${toys.human.name}:'not specified'"></td>-->
     <h4>
         <td th:text="${toys.human?.name}"></td>
+        <!--<button     action="#" th:action="@{/toyslist}" th:object="${toys}" method="post"-->
+    <!--type="delete" th:field = "${toys.id}">Delete</button>-->
     </h4>
     <td th:each="toys: ${toys}">
 

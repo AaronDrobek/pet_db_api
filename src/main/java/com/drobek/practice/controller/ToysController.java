@@ -1,16 +1,14 @@
 package com.drobek.practice.controller;
 
 
+import com.drobek.practice.dao.dto.HumanPet;
 import com.drobek.practice.dao.model.Human;
-import com.drobek.practice.dao.model.HumanPet;
 import com.drobek.practice.dao.model.Toys;
 import com.drobek.practice.service.HumanService;
 import com.drobek.practice.service.ToysService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -42,7 +40,6 @@ public class ToysController {
 
     @PostMapping("/toys")
     private void createAToy(@RequestBody Toys toys) {
-
         toysService.createAToy(toys);
     }
 
@@ -52,8 +49,6 @@ public class ToysController {
 
         Human human = humanService.findHumanByName(ownerName);
         LOG.info(human + "");
-//        Toys toy = toysService.findById(toyId);
-//        humanService.updateToyWithHuman(human.getId(),toy);
         toysService.updatetoyWithHuman(toyId, human);
     }
 
@@ -80,8 +75,6 @@ public class ToysController {
 
     @PostMapping("newcustomer")
     public String takeTwoObjectsCreateNewHumanAndToy(@RequestBody HumanPet humanPet) {
-//        LOG.info(humanPet.getHuman().getName());
-//        humanService.createAHumanFromTwoObjects(humanPet);
         toysService.createAToyFromTwoObjects(humanPet);
 
         String response = humanPet.getHuman().getName() + " has been added successfully ";

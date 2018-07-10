@@ -15,7 +15,7 @@ public class Pets {
     private String name;
 
     @Column(name = "breed")
-    private String  breed;
+    private String breed;
 
     @Column(name = "color")
     private String color;
@@ -31,7 +31,6 @@ public class Pets {
     public void setHuman(Human human) {
         this.human = human;
     }
-
 
     public int getId() {
         return id;

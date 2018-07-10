@@ -1,8 +1,5 @@
 package com.drobek.practice.dao.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import javax.persistence.*;
 
 //@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
@@ -30,7 +27,6 @@ public class Toys {
     @JoinColumn(name = "human_id")
 //    @JsonIgnore
     private Human human;
-
 
     public Human getHuman() {
         return human;
