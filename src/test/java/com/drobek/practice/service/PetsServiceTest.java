@@ -1,5 +1,6 @@
 package com.drobek.practice.service;
 
+import com.drobek.practice.dao.model.Human;
 import com.drobek.practice.dao.model.Pets;
 import com.drobek.practice.dao.repository.PetsRepository;
 import junitparams.JUnitParamsRunner;
@@ -78,6 +79,34 @@ public class PetsServiceTest {
                 hasProperty("color", Is.is("black"))
         ));
     }
+@Test
+    public void givenObjectHumanAndPetByIdAssignHumanObjectToHumanFieldInPetEntity(){
+        Human passedHuman = new Human();
+        passedHuman.setName("joe");
+        passedHuman.setAge(33);
 
+        Pets petToAppend = new Pets();
+        petToAppend.setId(4);
+        petToAppend.setName("charlie");
+        petToAppend.setBreed("corgi");
+        petToAppend.setColor("grey");
+
+        when(petsRepository.findById(4)).thenReturn(petToAppend);
+
+        petsService.updatePetWithHuman(4,passedHuman);
+
+        ArgumentCaptor<Pets> argCaptor = ArgumentCaptor.forClass(Pets.class);
+        verify(petsRepository).save(argCaptor.capture());
+
+        Pets capturedPet = argCaptor.getValue();
+        assertThat(capturedPet,allOf(
+                hasProperty("id",Is.is(4)),
+                hasProperty("name",Is.is("charlie")),
+                hasProperty("breed",Is.is("corgi")),
+                hasProperty("color",Is.is("grey")),
+                hasProperty("human",(hasProperty("name",Is.is("joe")))),
+                hasProperty("human",(hasProperty("age",Is.is(33))))
+        ));
+}
 
 }

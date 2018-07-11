@@ -40,7 +40,9 @@ public class ToysService {
         toys.setColor(toy.getColor());
         toys.setDiscription(toy.getDiscription());
         toysRepository.save(toys);
+
         }
+
 
     public Toys findToyByName(String toyname) {
 
