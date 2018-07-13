@@ -4,6 +4,7 @@ package com.drobek.practice.dao.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -22,7 +23,7 @@ public class Human {
     @Column(name = "age")
     private int age;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "human", targetEntity = Toys.class)
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "human", targetEntity = Toys.class, cascade = CascadeType.ALL)
 //    @JsonIgnore
     private List<Toys> toys;
 
@@ -39,6 +40,9 @@ public class Human {
     }
 
     public List<Toys> getToys() {
+        if(toys==null){
+            toys = new ArrayList<>();
+        }
         return toys;
     }
 

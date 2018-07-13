@@ -17,7 +17,7 @@ public interface ToysRepository
 
     List<Toys> findByHumanId(int humanId);
 
-    void save(Toys toys);
+    Toys save(Toys toys);
 
     void deleteByName(Toys toys);
 

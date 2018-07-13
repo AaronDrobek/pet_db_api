@@ -56,6 +56,7 @@ public class ToysService {
     }
 
     public Toys findById(int toyId) {
+
         return toysRepository.findById(toyId);
     }
 
@@ -71,9 +72,14 @@ public class ToysService {
         toy.setDiscription(humanPet.getDiscription());
         human.setName(humanPet.getHuman().getName());
         human.setAge(humanPet.getHuman().getAge());
+        toy.setHuman(human);
+        human.getToys().add(toy);
         humanRepository.save(human);
-        toysRepository.save(toy);
-        updatetoyWithHuman(toy.getId(),human);
+
+//        humanRepository.save(human);
+//        toy.setHuman(human);
+        Toys saved = toysRepository.save(toy);
+//        updatetoyWithHuman(saved.getId(),human);
 
     }
 

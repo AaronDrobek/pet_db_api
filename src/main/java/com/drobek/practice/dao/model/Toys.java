@@ -23,7 +23,7 @@ public class Toys {
     @Column(name = "discription")
     private String discription;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
     @JoinColumn(name = "human_id")
 //    @JsonIgnore
     private Human human;
